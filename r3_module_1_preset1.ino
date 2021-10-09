@@ -67,12 +67,12 @@ void loop()
   //displayNumber(onesValue, right decoder pins)
   displayNumber(ones, onePins);
   
-  if(potVal >=95){
-  	digitalWrite(ledPin, HIGH);
-    tone(buzzerPin, 1000);
-    delay(75);
-  	digitalWrite(ledPin, LOW);
-    noTone(buzzerPin);
+  if(potVal >=95){  //if potentiometer value is greater than or equal to 95
+  	digitalWrite(ledPin, HIGH);   //LED Pin HIGH (ON)
+    tone(buzzerPin, 500);  //buzzer tone at 1000hz
+    delay(75);    //75 ms pause
+  	digitalWrite(ledPin, LOW);  //LED Pin LOW (OFF)
+    noTone(buzzerPin);   //75 ms pause
     delay(75);
   }
 
