@@ -16,8 +16,8 @@ int onePins [] = {11,8,9,10};
 //[outputNum or decimal number][binaryEquivalent] = pins:(1,2,3,4)
 //binary equivalent of the decimal numbers between 0 and 9 stored into 2D Array
 int decToBinPreset [10][4] = {{0,0,0,0}, //0 
-                      		  {1,0,0,0}, //1
-                        	  {0,1,0,0}, //2
+                      		    {1,0,0,0}, //1
+                        	    {0,1,0,0}, //2
                               {1,1,0,0}, //3
                               {0,0,1,0}, //4
                               {1,0,1,0}, //5
