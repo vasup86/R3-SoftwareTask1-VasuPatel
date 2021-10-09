@@ -69,13 +69,12 @@ void loop()
   
   if(potVal >=95){  //if potentiometer value is greater than or equal to 95
   	digitalWrite(ledPin, HIGH);   //LED Pin HIGH (ON)
-    tone(buzzerPin, 500);  //buzzer tone at 1000hz
+    tone(buzzerPin, 500);  //buzzer tone at 500hz
     delay(75);    //75 ms pause
   	digitalWrite(ledPin, LOW);  //LED Pin LOW (OFF)
     noTone(buzzerPin);   //75 ms pause
     delay(75);
   }
-
   delay(500);
 }
 
