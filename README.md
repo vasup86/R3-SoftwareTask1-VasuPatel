@@ -13,4 +13,4 @@ The Schematic and the link to the project is below.
 
 TinkerCAD Link: https://www.tinkercad.com/things/frKJt7A5PiL-r3-module-1-preset/editel
 
-![Screenshot (155)](https://user-images.githubusercontent.com/83378929/136640988-74e58b91-d93a-4c3a-96e5-9ef0b865acac.png)
+![Screenshot (158)](https://user-images.githubusercontent.com/83378929/136641165-1f18c25d-3b38-409b-a881-9de794547484.png)
