@@ -72,8 +72,8 @@ void loop()
     tone(buzzerPin, 500);  //buzzer tone at 500hz
     delay(75);    //75 ms pause
   	digitalWrite(ledPin, LOW);  //LED Pin LOW (OFF)
-    noTone(buzzerPin);   //75 ms pause
-    delay(75);
+    noTone(buzzerPin);   //turn off piezo buzzer
+    delay(75);   //75 ms pause
   }
   delay(500);
 }
